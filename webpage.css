@@ -32,6 +32,10 @@ ul.listright {
     padding: 0;
 }
 
+.para {
+    font-weight: bold;
+}
+
 ul.listright li {
     padding: 0 10px;
 }
