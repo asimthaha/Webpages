@@ -1,0 +1,130 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+
+.logo-wrapper {
+    flex: 1;
+}
+
+.logo-wrapper .logo-img {
+    max-height: 100px;
+}
+
+ul.listright {
+    display: inline-flex;
+    color: #40bac0;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.listright li {
+    padding: 0 10px;
+}
+
+section.section2 {
+    background-color: #f7fdfd;
+}
+
+main {
+    padding: 0 10%;
+}
+
+section.section1 h1,h5 {
+    text-align: center;
+}
+
+.section1-1 {
+    display: flex;
+    list-style-type: square;
+}
+
+.left ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.left ul li {
+  display: flex;
+}
+
+.left ul li::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    min-width: 15px;
+    background-image: url('https://www.citypng.com/public/uploads/preview/-316225804095zek9ufozk.png');
+    background-size: 70%;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid #40bac0;
+    background-position: center
+}
+
+.section2 h1,h4 {
+    text-align: center
+
+}
+
+.section2 .textareas input.smallInput {
+    width: 31%;
+    margin: 1%;
+    margin-bottom: 6px;
+} 
+
+.section2 .textareas input.bigInput {
+    width: 98%;
+    height: 80px;
+    margin: 1%;
+    margin-right: 1%;
+    
+}
+
+.section2 .textareas select.dept {
+    width: 31%;
+    margin: 1%;
+}
+
+.button-wrapper {
+
+    /* display: flex;
+    margin: auto;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4%;
+    size: 11;
+}
+
+.button-wrapper button {
+    color: #ffffff;
+    background-color:#40bac0;
+    border-radius: 10px;
+    border-style: none;
+    font: small;
+    padding: 16PX;
+    width: 200px;
+    border-radius: 36PX;
+    margin-bottom: 20px;
+    
+}
+
+footer {
+    display: grid;
+    color: #fff;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    height: 50px;
+}
